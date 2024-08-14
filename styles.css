@@ -1,0 +1,129 @@
+.hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 2px -2px gray;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+
+
+
+
+  .gallery-item {
+    margin: 10px;
+  }
+  .gallery-item img {
+    width: 200px; /* Set a fixed width for the images */
+    height: 150px; /* Set a fixed height for the images */
+    object-fit: cover; /* Make the image cover the entire container */
+    border-radius: 10px; /* Add a border radius for a nicer look */
+  }
+  .gallery-item img:hover {
+    opacity: 0.8; /* Add a hover effect to change the opacity */
+    border: 2px solid #333; /* Add a border on hover */
+  }
+  @media (max-width: 768px) {
+    .gallery-item {
+      flex-basis: 50%; /* Make the images take up 50% of the width on smaller screens */
+    }
+  }
+  @media (max-width: 480px) {
+    .gallery-item {
+      flex-basis: 100%; /* Make the images take up the full width on very small screens */
+    }
+  }
+
+
+
+
+  /* General styles for the gallery */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Container for the gallery */
+  #gallery {
+    padding: 40px 0;
+  }
+  
+  /* Styling each gallery item */
+  .gallery-item {
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px); /* 3 items per row, adjusting for margin */
+    max-width: calc(33.333% - 20px);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .gallery-item {
+      flex: 1 1 calc(50% - 20px); /* 2 items per row */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .gallery-item {
+      flex: 1 1 100%; /* 1 item per row */
+      max-width: 100%;
+    }
+  }
+  
+  /* Ensure images are responsive */
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for images */
+  .gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Modal styling */
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .modal-body {
+    font-size: 1rem;
+  }
+  
+  .btn-close {
+    box-shadow: none;
+  }
+  
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <project>
+    <title>Project 1</title>
+    <description>This is a description of Project 1</description>
+    <technologies>
+      <technology>HTML</technology>
+      <technology>CSS</technology>
+      <technology>ML</technology>
+    </technologies>
+  </project>
+  <project>
+    <title>Project 2</title>
+    <description>This is a description of Project 2</description>
+    <technologies>
+      <technology>Python</technology>
+      <technology>C</technology>
+    </technologies>
+  </project>
+</projects>
